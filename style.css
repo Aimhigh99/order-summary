@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+  font-family: "Red Hat Display", sans-serif;
+  border: none;
+  font-size: 1rem;
+}
+
+:root {
+  /* Colours - Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Colours - Neutral*/
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background: url(images/pattern-background-desktop.svg);
+  background-color: hsl(224, 100%, 90%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: var(--dark-blue);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  height: 500px;
+  width: 320px;
+  border-radius: 20px;
+  margin: calc((100vh - 500px) / 2) auto;
+  background: #fff;
+  overflow: hidden;
+}
+
+.container__hero {
+  width: 100%;
+}
+
+.container__hero img {
+  width: 100%;
+}
+
+.container__body {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: var(--desaturated-blue);
+  font-size: 0.875rem;
+  margin-bottom: 15px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: hsl(230, 75%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan i {
+  background: #dee6fb;
+  font-size: 14px;
+  color: #6a739c;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.plan h3 {
+  font-size: 0.9rem;
+  font-weight: 900;
+  margin-left: 10px;
+  line-height: 1.7;
+}
+
+.plan h3 span {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--desaturated-blue);
+}
+
+.plan a {
+  font-weight: 400;
+  font-size: 0.75rem;
+  justify-self: flex-end;
+}
+
+button {
+  background: var(--bright-blue);
+  color: var(--pale-blue);
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 20px var(--desaturated-blue);
+}
+
+.cancel {
+  font-size: 0.785rem;
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
