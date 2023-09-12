@@ -30,17 +30,17 @@ It should be as identical as possible
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://order-summary-ericaimhigh.vercel.app/)
 
 ## My process
 
 - First created a div for the main card
-  -- A child div that wraps the hero image
-  -- A child div that hold the order details
-  -- - An h1 heading
-  -- - A paragraph for the order description
-  -- - A div for the price summary
-  -- - -- I used font-awesome for the music icon
+- -- A child div that wraps the hero image
+- -- A child div that hold the order details
+- -- - An h1 heading
+- -- - A paragraph for the order description
+- -- - A div for the price summary
+- -- - -- I used font-awesome for the music icon
 
 ### Built with
 
@@ -58,5 +58,5 @@ I want to work on my handling background graphics
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/aimhigh99)
+- Frontend Mentor - [@aimhigh99](https://www.frontendmentor.io/profile/aimhigh99)
 - Twitter - [@ericaimhigh](https://www.twitter.com/ericaimhigh)
